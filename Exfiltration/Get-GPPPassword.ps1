@@ -89,7 +89,7 @@ function Get-GPPPassword {
             $Server = $Env:USERDNSDOMAIN
     )
     
-    #Some XML issues between versions
+    #Some XML issues between versions test 2
     Set-StrictMode -Version 2
     
     #define helper function that decodes and decrypts password
